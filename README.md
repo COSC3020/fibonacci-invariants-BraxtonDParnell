@@ -27,3 +27,7 @@ about the current recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+
+A good invariant for fib() would be that array[n-1] + array[n-2] = the nth position of the fibonacci sequence and n > 1.
+No matter the value of n, this should remain true. Once n becomes 1, we only return the n-1 value.
